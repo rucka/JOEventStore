@@ -1,7 +1,7 @@
 node.js joliver EventStore porting
 ======================================================================
 ## Disclaimer 
-This readme is based from https://github.com/joliver/EventStore/blob/master/readme.markdown, in order to mantains
+This readme is modified from https://github.com/joliver/EventStore/blob/master/readme.markdown, in order to leave
 the essence of joliver EventStore and their goal.
 Let's go!
 
@@ -78,8 +78,17 @@ are always dispatched to any messaging infrastructure.
 * Support CommonJs module management
 * Take advantage of promise pattern (based on Q library)
 
+## Dependencies
+* nodeunit
+* mongodb
+* q
+* requirejs
+* underscore
+* underscore.string 
+* wrench
+
 ## Running
-Simply install run npm install joeventstore from node console and require('joeventstore') from your node.js code.
+Simply run npm install joeventstore from node console then require('joeventstore') from your node.js file.
 
 ## Using the EventStore
 		var EventStore = require('joeventstore');
