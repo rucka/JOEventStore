@@ -1,4 +1,4 @@
-node.js joliver EventStore porting
+joliver EventStore node.js porting
 ======================================================================
 ## Disclaimer 
 This readme is modified from https://github.com/joliver/EventStore/blob/master/readme.markdown, in order to leave

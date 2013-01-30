@@ -1,0 +1,10 @@
+{
+    "name"          : "JOEventStore",
+    "description"   : "Javascript porting of C# joliver EventStore, an event storage for event sourcing",
+    "homepage"      : "https://www.github.com/rucka/JOEventStore",
+    "keywords"      : ["nodejs", "javascript", "util", "cqrs", "server", "event sourcing", "framework", "eventstore", "joliver", "mongodb"],
+    "author"        : "Gianluca Carucci <gianluca@carucci.org>",
+    "repository"    : "git://github.com/rucka/JOEventStore",
+    "main"          : "main.js",
+    "version"       : "0.5.0"
+}
