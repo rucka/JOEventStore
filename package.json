@@ -1,10 +1,28 @@
 {
-    "name"          : "JOEventStore",
-    "description"   : "Javascript porting of C# joliver EventStore, an event storage for event sourcing",
-    "homepage"      : "https://www.github.com/rucka/JOEventStore",
-    "keywords"      : ["nodejs", "javascript", "util", "cqrs", "server", "event sourcing", "framework", "eventstore", "joliver", "mongodb"],
-    "author"        : "Gianluca Carucci <gianluca@carucci.org>",
-    "repository"    : "git://github.com/rucka/JOEventStore",
-    "main"          : "main.js",
-    "version"       : "0.5.0"
+  "name": "joeventstore",
+  "version": "0.5.0",
+  "description": "Javascript porting of C# joliver EventStore, an event storage for event sourcing",
+  "main": "main.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "mdcore": "~0.1.0",
+    "mongodb": "~1.2.8",
+    "q": "~0.8.12",
+    "nodeunit": "~0.7.4",
+    "requirejs": "~2.1.1",
+    "underscore": "~1.4.3",
+    "underscore.string": "~2.3.1",
+    "wrench": "~1.4.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rucka/JOEventStore.git"
+  },
+  "keywords"      : ["nodejs", "javascript", "util", "cqrs", "server", "event sourcing", "framework", "eventstore", "joliver", "mongodb"],
+  "author"        : "Gianluca Carucci <gianluca@carucci.org>",
+  "license": "MIT",
+  "readmeFilename": "readme.markdown"
 }
