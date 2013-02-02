@@ -88,7 +88,7 @@ are always dispatched to any messaging infrastructure.
 * wrench
 
 ## Running
-Simply run npm install joeventstore from node console then require('joeventstore') from your node.js file.
+In your project simply run npm install joeventstore from node console then require('joeventstore') from your node.js file.
 
 ## Using the EventStore
 		var EventStore = require('joeventstore');
